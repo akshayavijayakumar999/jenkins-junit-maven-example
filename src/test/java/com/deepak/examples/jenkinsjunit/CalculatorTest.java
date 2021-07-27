@@ -49,7 +49,7 @@ public class CalculatorTest {
 	public void testSum2() {
 		int result = calculator.sum(3, 4);
 
-		assertEquals(8, result);
+		assertEquals(7, result);
 	}
 
 	@Test
