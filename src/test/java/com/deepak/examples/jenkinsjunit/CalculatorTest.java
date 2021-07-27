@@ -46,6 +46,13 @@ public class CalculatorTest {
 	}
 
 	@Test
+	public void testSum2() {
+		int result = calculator.sum(3, 4);
+
+		assertEquals(8, result);
+	}
+
+	@Test
 	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);
